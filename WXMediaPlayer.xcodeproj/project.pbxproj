@@ -13,6 +13,17 @@
 		2516C66920623B65006EFD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2516C66820623B65006EFD72 /* Assets.xcassets */; };
 		2516C66C20623B65006EFD72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2516C66A20623B65006EFD72 /* LaunchScreen.storyboard */; };
 		2516C66F20623B65006EFD72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C66E20623B65006EFD72 /* main.m */; };
+		2516C67820623CE8006EFD72 /* WXMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C67620623CE7006EFD72 /* WXMediaPlayer.m */; };
+		2516C67B20623D36006EFD72 /* WXMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C67920623D36006EFD72 /* WXMediaItem.m */; };
+		2516C68C206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C680206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.m */; };
+		2516C68D206242A0006EFD72 /* MCCacheSupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C681206242A0006EFD72 /* MCCacheSupportUtils.m */; };
+		2516C68E206242A0006EFD72 /* MCAVPlayerItemCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C684206242A0006EFD72 /* MCAVPlayerItemCacheTask.m */; };
+		2516C68F206242A0006EFD72 /* MCAVPlayerItemCacheLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C685206242A0006EFD72 /* MCAVPlayerItemCacheLoader.m */; };
+		2516C690206242A0006EFD72 /* MCAVPlayerItemCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C686206242A0006EFD72 /* MCAVPlayerItemCacheFile.m */; };
+		2516C691206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C687206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.m */; };
+		2516C692206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C68A206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.m */; };
+		2516C69920624317006EFD72 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C69620624317006EFD72 /* NSObject+FBKVOController.m */; };
+		2516C69A20624317006EFD72 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516C69720624317006EFD72 /* FBKVOController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		2516C66B20623B65006EFD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2516C66D20623B65006EFD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2516C66E20623B65006EFD72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2516C67620623CE7006EFD72 /* WXMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMediaPlayer.m; sourceTree = "<group>"; };
+		2516C67720623CE7006EFD72 /* WXMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMediaPlayer.h; sourceTree = "<group>"; };
+		2516C67920623D36006EFD72 /* WXMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMediaItem.m; sourceTree = "<group>"; };
+		2516C67A20623D36006EFD72 /* WXMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMediaItem.h; sourceTree = "<group>"; };
+		2516C67E206242A0006EFD72 /* MCAVPlayerItemCacheLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheLoader.h; sourceTree = "<group>"; };
+		2516C67F206242A0006EFD72 /* MCAVPlayerItemCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheTask.h; sourceTree = "<group>"; };
+		2516C680206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemRemoteCacheTask.m; sourceTree = "<group>"; };
+		2516C681206242A0006EFD72 /* MCCacheSupportUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCacheSupportUtils.m; sourceTree = "<group>"; };
+		2516C682206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemLocalCacheTask.h; sourceTree = "<group>"; };
+		2516C683206242A0006EFD72 /* MCAVPlayerItemCacheFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemCacheFile.h; sourceTree = "<group>"; };
+		2516C684206242A0006EFD72 /* MCAVPlayerItemCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheTask.m; sourceTree = "<group>"; };
+		2516C685206242A0006EFD72 /* MCAVPlayerItemCacheLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheLoader.m; sourceTree = "<group>"; };
+		2516C686206242A0006EFD72 /* MCAVPlayerItemCacheFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemCacheFile.m; sourceTree = "<group>"; };
+		2516C687206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAVPlayerItemLocalCacheTask.m; sourceTree = "<group>"; };
+		2516C688206242A0006EFD72 /* MCCacheSupportUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCacheSupportUtils.h; sourceTree = "<group>"; };
+		2516C689206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAVPlayerItemRemoteCacheTask.h; sourceTree = "<group>"; };
+		2516C68A206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+MCCacheSupport.m"; sourceTree = "<group>"; };
+		2516C68B206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+MCCacheSupport.h"; sourceTree = "<group>"; };
+		2516C69420624317006EFD72 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		2516C69520624317006EFD72 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		2516C69620624317006EFD72 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		2516C69720624317006EFD72 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		2516C69820624317006EFD72 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 		2516C65E20623B65006EFD72 /* WXMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				2516C67520623CE7006EFD72 /* WXMediaPlayer */,
 				2516C65F20623B65006EFD72 /* AppDelegate.h */,
 				2516C66020623B65006EFD72 /* AppDelegate.m */,
 				2516C66220623B65006EFD72 /* ViewController.h */,
@@ -69,6 +104,60 @@
 				2516C66E20623B65006EFD72 /* main.m */,
 			);
 			path = WXMediaPlayer;
+			sourceTree = "<group>";
+		};
+		2516C67520623CE7006EFD72 /* WXMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2516C69320624317006EFD72 /* FBKVOController */,
+				2516C67C206242A0006EFD72 /* AVPlayerCacheSupport */,
+				2516C67A20623D36006EFD72 /* WXMediaItem.h */,
+				2516C67920623D36006EFD72 /* WXMediaItem.m */,
+				2516C67620623CE7006EFD72 /* WXMediaPlayer.m */,
+				2516C67720623CE7006EFD72 /* WXMediaPlayer.h */,
+			);
+			path = WXMediaPlayer;
+			sourceTree = "<group>";
+		};
+		2516C67C206242A0006EFD72 /* AVPlayerCacheSupport */ = {
+			isa = PBXGroup;
+			children = (
+				2516C67D206242A0006EFD72 /* Classes */,
+				2516C68A206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.m */,
+				2516C68B206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.h */,
+			);
+			path = AVPlayerCacheSupport;
+			sourceTree = "<group>";
+		};
+		2516C67D206242A0006EFD72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2516C67E206242A0006EFD72 /* MCAVPlayerItemCacheLoader.h */,
+				2516C67F206242A0006EFD72 /* MCAVPlayerItemCacheTask.h */,
+				2516C680206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.m */,
+				2516C681206242A0006EFD72 /* MCCacheSupportUtils.m */,
+				2516C682206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.h */,
+				2516C683206242A0006EFD72 /* MCAVPlayerItemCacheFile.h */,
+				2516C684206242A0006EFD72 /* MCAVPlayerItemCacheTask.m */,
+				2516C685206242A0006EFD72 /* MCAVPlayerItemCacheLoader.m */,
+				2516C686206242A0006EFD72 /* MCAVPlayerItemCacheFile.m */,
+				2516C687206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.m */,
+				2516C688206242A0006EFD72 /* MCCacheSupportUtils.h */,
+				2516C689206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2516C69320624317006EFD72 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				2516C69420624317006EFD72 /* KVOController.h */,
+				2516C69520624317006EFD72 /* FBKVOController.h */,
+				2516C69620624317006EFD72 /* NSObject+FBKVOController.m */,
+				2516C69720624317006EFD72 /* FBKVOController.m */,
+				2516C69820624317006EFD72 /* NSObject+FBKVOController.h */,
+			);
+			path = FBKVOController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +231,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2516C67B20623D36006EFD72 /* WXMediaItem.m in Sources */,
+				2516C690206242A0006EFD72 /* MCAVPlayerItemCacheFile.m in Sources */,
+				2516C69A20624317006EFD72 /* FBKVOController.m in Sources */,
+				2516C67820623CE8006EFD72 /* WXMediaPlayer.m in Sources */,
+				2516C68C206242A0006EFD72 /* MCAVPlayerItemRemoteCacheTask.m in Sources */,
 				2516C66420623B65006EFD72 /* ViewController.m in Sources */,
 				2516C66F20623B65006EFD72 /* main.m in Sources */,
+				2516C691206242A0006EFD72 /* MCAVPlayerItemLocalCacheTask.m in Sources */,
+				2516C69920624317006EFD72 /* NSObject+FBKVOController.m in Sources */,
+				2516C692206242A0006EFD72 /* AVPlayerItem+MCCacheSupport.m in Sources */,
 				2516C66120623B65006EFD72 /* AppDelegate.m in Sources */,
+				2516C68F206242A0006EFD72 /* MCAVPlayerItemCacheLoader.m in Sources */,
+				2516C68E206242A0006EFD72 /* MCAVPlayerItemCacheTask.m in Sources */,
+				2516C68D206242A0006EFD72 /* MCCacheSupportUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 394X7Y9SS6;
 				INFOPLIST_FILE = WXMediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wx.WXMediaPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 394X7Y9SS6;
 				INFOPLIST_FILE = WXMediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wx.WXMediaPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
